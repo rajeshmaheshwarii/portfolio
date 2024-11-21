@@ -9,21 +9,21 @@ const Testimonial = () => {
 
   const testimonials = [
     {
-      logo: "https://via.placeholder.com/50",
+      logo: "/rating.png",
       name: "John Doe",
       designation: "CEO, Example Company",
       message:
         "This product has changed the way we work! Highly recommend it to anyone looking to boost productivity.",
     },
     {
-      logo: "https://via.placeholder.com/50",
+      logo: "/rating.png",
       name: "Jane Smith",
       designation: "Marketing Director, XYZ Corp",
       message:
         "A game-changer for our team. The support is exceptional and the results are even better.",
     },
     {
-      logo: "https://via.placeholder.com/50",
+      logo: "/rating.png",
       name: "Mike Johnson",
       designation: "CTO, InnovateTech",
       message:
@@ -48,10 +48,12 @@ const Testimonial = () => {
         {/* Testimonial Card */}
         <div className="testimonial-card" data-aos="fade-up">
           <div className="testimonial-content">
-            <img
+            <Image
               src={testimonials[currentIndex].logo}
               alt="author"
               className="author-img"
+              width={1000}
+              height={1000}
             />
             <div className="testimonial-text">
               <Image

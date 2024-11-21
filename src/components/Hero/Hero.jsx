@@ -17,7 +17,7 @@ export const Hero = () => {
         />
       </div>
       <div className="heading">
-        <h2>Hey, I'm Rajesh</h2>
+        <h2>Hey, I&apos;m Rajesh</h2>
         <p>Frontend Developer</p>
       </div>
       <div className="description">

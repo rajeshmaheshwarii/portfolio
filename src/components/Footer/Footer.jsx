@@ -9,7 +9,7 @@ const Footer = () => {
             <h2>Rajesh Maheshwari</h2>
         </div>
         <div className="social" data-aos="fade-up" data-aos-duration="1000">
-         <p>Made with ❤️ by Rajesh Maheshwari.<br/> Let's create something amazing together!</p>
+         <p>Made with ❤️ by Rajesh Maheshwari.<br/> Let&apos;s create something amazing together!</p>
          <div className="social-icon" data-aos="fade-up" data-aos-duration="1200">
          {socialMedia.map((item, index) => (
             <a key={index} href={item.link} target="_blank">
