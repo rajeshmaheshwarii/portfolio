@@ -1,0 +1,55 @@
+.skill-container{
+    display: flex;
+    flex-direction: column;
+    margin:0 32px;
+}
+
+.skills-row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* Ensures it wraps on smaller screens */
+    gap: 20px; /* Spacing between logos */
+    
+  }
+  
+  /* Individual skill item */
+  .skill-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: white; */
+    padding: 5px;
+    transition: transform 0.3s ease; /* Hover effect */
+  }
+  
+  .skill-item:hover {
+    transform: scale(1.1); /* Scale up on hover */
+  }
+
+  .skill-item:hover .item{
+    background-color: white;
+  }
+  
+  /* Logo images */
+  .item {
+    width: 45px;
+    height: 45px;
+    object-fit: contain;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    background-color: hsl(0, 7%, 92%);
+    padding: 5px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* Responsive adjustments */
+@media screen and (max-width: 768px) {
+    .skills-row {
+      justify-content: center;
+      gap: 15px;
+    }
+    .skill-container{
+      justify-content: center;
+      align-items: center;
+    }  
+}

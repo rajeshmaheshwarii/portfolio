@@ -1,33 +1,64 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+    --heading-color: #ffffff;
+    --text-color:  #c7c9cd;
+    --text-secondary : #555;
+    --font-family:"Poppins", sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+body{
+    background-color: #02111B;
+    /* background-color: #191942; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.section{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    color: var( --heading-color);
+    font-family: var(--font-family);
+    padding-bottom: 10px;
+    width: 100%;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    margin:0 32px;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.title-seperator{
+    width: 70%;
+    height: 1px;
+    background-color:#ffffff68;
+    margin-bottom: 100px;
+}
+
+button{
+    cursor: pointer;
+
+}
+
+
+
+
+/* Media query for mobile devices */
+@media screen and (max-width: 768px) {
+   .main_container{
+    width: 100vw;
+   }
+   .title{
+   text-align: center;
+}
+.container{
+    margin:0 25px;
+}
 }

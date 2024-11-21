@@ -1,0 +1,28 @@
+.about-container{
+    display: flex;
+    flex-direction: column;
+    margin:0 32px;
+}
+.title{
+    color: var( --heading-color);
+    font-family: var(--font-family);
+}
+.about-text{
+    color: var(--text-color);
+    font-family:var(--font-family);
+    padding: 0;
+    margin: 0;
+    line-height: 22px;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .about-container{
+        justify-content: center;
+        align-items: center;
+    }  
+    .about-text{
+        text-align: center;
+    }
+}
