@@ -1,6 +1,7 @@
 import React from 'react'
 import "./footer.css"
 import Image from 'next/image';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; // Import FontAwesomeIcon component
 import { socialMedia } from '../../../data/social';
 const Footer = () => {
   return (
@@ -13,7 +14,7 @@ const Footer = () => {
          <div className="social-icon" data-aos="fade-up" data-aos-duration="1200">
          {socialMedia.map((item, index) => (
             <a key={index} href={item.link} target="_blank">
-              <Image src={item.icon} width={1000} height={1000} alt={item.name} className='icon' />
+              <FontAwesomeIcon icon={item.icon} className='icon'/>
             </a>
           ))}
          </div>

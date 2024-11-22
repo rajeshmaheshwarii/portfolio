@@ -10,6 +10,7 @@ import Experience from "@/components/Experience/Experience"
 import Project from "@/components/Projects/Project";
 import TestimonialSwiper from "@/components/Testimonial/Testimonial";
 import Footer from "@/components/Footer/Footer";
+import ThemeToggle from "@/components/Theme Selector/Theme";
 import AOS from "aos";
 import "aos/dist/aos.css";
 export default function Home() {
@@ -28,6 +29,7 @@ export default function Home() {
   return (
     <>
       <div className="main_container">
+        {/* <ThemeToggle/> */}
         <Hero />
         <About />
         <Education />

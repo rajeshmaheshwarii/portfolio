@@ -1,0 +1,44 @@
+.toggleContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  font-family: Arial, sans-serif;
+}
+
+.label {
+  font-size: 1.5rem;
+}
+
+.toggleSwitch {
+  width: 60px;
+  height: 30px;
+  border-radius: 50px;
+  background: var(--toggle-bg);
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.toggleSwitch:hover {
+  background: var(--toggle-hover-bg);
+}
+
+.toggleCircleLight,
+.toggleCircleDark {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: var(--toggle-circle);
+  transition: transform 0.3s ease;
+}
+
+.toggleCircleLight {
+  transform: translateX(0);
+}
+
+.toggleCircleDark {
+  transform: translateX(30px);
+}

@@ -35,21 +35,23 @@
 .social-icon{
     width: 100%;
     display: flex;
-    gap: 20px;
+    gap: 15px;
 }
 
 .social-icon .icon {
     width: 20px;
     height: 20px;
     cursor: pointer;
-    transition: transform 0.2s ease-in;
-    background-color: white;
+    transition: transform 0.5s ease-in-out;
+   color: white;
     padding: 5px;
     border-radius: 5px;
 }
 
 .social-icon .icon:hover {
     transform: translateY(-5px);
+    background-color: white;
+    color: black;
 }
 @media screen and (max-width: 768px) {
     .footer-conatiner{
