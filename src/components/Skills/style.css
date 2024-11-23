@@ -23,11 +23,12 @@
   }
   
   .skill-item:hover {
-    transform: scale(1.1); /* Scale up on hover */
+    transform: translateY(-5px); /* Scale up on hover */
   }
 
   .skill-item:hover .item{
     background-color: white;
+    transform: translateY(-5px);
   }
   
   /* Logo images */

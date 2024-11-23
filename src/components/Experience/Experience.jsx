@@ -6,7 +6,7 @@ import Heading from "../Heading/Heading";
 
 const Experience = () => {
   return (
-    <div className="section">
+    <div className="section" id="experience">
       <div className="container">
         <Heading title="Experience" />
         {experience.map((exp, index) => {

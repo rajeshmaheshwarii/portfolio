@@ -36,7 +36,7 @@ export default function Home() {
         <Project/>
         <TestimonialSwiper/>
         <Footer/>
-      </div>
+        </div>
     </>
   );
 }

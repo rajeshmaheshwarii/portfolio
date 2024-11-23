@@ -7,7 +7,7 @@ import Heading from '../Heading/Heading';
 
 const Education = () => {
   return (
-    <div className='section'>
+    <div className='section' id='education'>
       <div className="container">
       <Heading title="Education"/>
         {educationData.map((edu,index)=>{

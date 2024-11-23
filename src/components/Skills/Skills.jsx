@@ -6,7 +6,7 @@ import Heading from "../Heading/Heading";
 
 const Skills = () => {
   return (
-    <div className="section">
+    <div className="section" id="skills">
       <div className="skill-container">
         <Heading title="My Skills"/>
         <div className="skills-row">

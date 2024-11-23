@@ -35,6 +35,9 @@ export const metadata = {
     "Frontend Developer",
     "website developer in bhuj",
     "web developement in bhuj",
+    "Kutchh Gujarat Developer",
+    "Kutchh IT Professionals",
+    "Bhuj Developers",
     "Next.js",
     "React.js",
     "WordPress",
@@ -43,6 +46,9 @@ export const metadata = {
     "Modern Web Development",
     "Web Developer",
     "Creative Websites",
+    "Gujarat Tech Community",
+    "Bhuj Frontend Developer", "Kutchh Web Developer", "Gujarat Software Engineer", "Frontend Development in Bhuj", "Web Developer in Kutchh", "IT Professional in Bhuj", "Gujarat IT Services", "Mamaura Village Developer", "Parul University Alumni", "Bhuj Technology Community", "Kutchh IT Solutions", "Gujarat Freelance Developer", "Web Development Services in Bhuj", "Kutchh Next.js Developer", "React Developer in Gujarat", "Bhuj Tech Jobs", "Gujarat Web Development Expert", "IT Company in Bhuj", "Kutchh Digital Services", "Freelancer in Mamaura", "Networking Events in Bhuj", "Tech Meetups in Kutchh", "Gujarat Developer Community", "Bhuj Startup Ecosystem", "Local IT Training in Gujarat", "Government Polytechnic Bhuj Alumni", "Kutchh Engineering Graduates", "Parul University Computer Science Graduates", "Bhuj Digital Marketing Services", "Gujarat Software Development Companies"
+
   ],
   author: "Rajesh Maheshwari",
   charset: "UTF-8",
@@ -50,7 +56,7 @@ export const metadata = {
   language: "en",
   openGraph: {
     type: "website",
-    url: "https://www.rajesh-maheshwari.tech", // Replace with your portfolio URL
+    url: "https://www.rajesh-maheshwari.tech/", // Replace with your portfolio URL
     title: "Portfolio - Rajesh Maheshwari",
     description:
       "Looking for a professional Frontend Developer? Visit Rajesh Maheshwari's portfolio to see projects built with Next.js, React.js, and WordPress, delivering responsive and user-friendly web designs.",
@@ -70,7 +76,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        {children}
+      </body>
     </html>
   );
 }

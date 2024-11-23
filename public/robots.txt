@@ -1,0 +1,5 @@
+
+User-agent: *
+Disallow: /api/       
+
+Sitemap: https://www.rajesh-maheshwari.tech/sitemap.xml

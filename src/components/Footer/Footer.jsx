@@ -5,13 +5,13 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'; // Import Font
 import { socialMedia } from '../../../data/social';
 const Footer = () => {
   return (
-    <div className='footer-conatiner'>
-        <div className="identity" data-aos="fade-up" data-aos-duration="500">
+    <div className='footer-conatiner' id='contact'>
+        <div className="identity" data-aos="fade-up" >
             <h2>Rajesh Maheshwari</h2>
         </div>
-        <div className="social" data-aos="fade-up" data-aos-duration="1000">
+        <div className="social" data-aos="fade-up" >
          <p>Made with ❤️ by Rajesh Maheshwari.<br/> Let&apos;s create something amazing together!</p>
-         <div className="social-icon" data-aos="fade-up" data-aos-duration="1200">
+         <div className="social-icon" data-aos="fade-up" >
          {socialMedia.map((item, index) => (
             <a key={index} href={item.link} target="_blank">
               <FontAwesomeIcon icon={item.icon} className='icon'/>

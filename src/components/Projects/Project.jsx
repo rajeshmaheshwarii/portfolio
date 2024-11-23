@@ -11,7 +11,7 @@ const router = useRouter()
     router.push(link)
   }
   return (
-    <div className="section">
+    <div className="section" id="projects">
       <div className="container">
       <Heading title="Projects"/>
         <div className="project-container">

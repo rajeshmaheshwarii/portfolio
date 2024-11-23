@@ -5,7 +5,7 @@ import "./hero.css";
 
 export const Hero = () => {
   return (
-    <div className="hero-section">
+    <div className="hero-section" id="hero">
       <div className="hero-image">
         <Image
           src="/profile.png"
