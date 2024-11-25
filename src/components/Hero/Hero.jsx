@@ -28,7 +28,7 @@ export const Hero = () => {
       </div>
       <div className="action-btn" data-aos="fade-up">
         <Link
-          href="/Resume.pdf"
+          href="#"
           passHref
           legacyBehavior
         >
