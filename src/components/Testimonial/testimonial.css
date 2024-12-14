@@ -26,15 +26,16 @@
 .testimonial-text {
     font-style: italic;
     margin-bottom: 10px;
-    display: flex;
+    /* display: flex; */
     text-align: center;
     font-family: var(--font-family);
 }
 .quote-icon {
     vertical-align: middle; 
     margin: 0 5px; 
-    height: 25px;
-    width: 25px;
+    height: 15px;
+    width: 15px;
+    margin-bottom: 10px;
 }
 .author-info {
     text-align: center;

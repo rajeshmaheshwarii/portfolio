@@ -8,7 +8,7 @@ export const projects = [
     {
         logo : "/projects/interngo.png",
         title : "InternGo",
-        description :"IInterngo is a platform that allows users to find, apply for, and manage internships. It provides account management, personalized dashboards, detailed internship tracking, and secure payment options to easily join internships, gain experience, and track application progress seamlessly.",
+        description :"Interngo is a platform that allows users to find, apply for, and manage internships. It provides account management, personalized dashboards, detailed internship tracking, and secure payment options to easily join internships, gain experience, and track application progress seamlessly.",
         link : "https://intern-go.vercel.app/",
     },
     {

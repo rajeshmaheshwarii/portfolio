@@ -1,23 +1,21 @@
 export const testimonials = [
     {
       logo: "/rating.png",
-      name: "John Doe",
-      designation: "CEO, Example Company",
-      message:"This product has changed the way we work! Highly recommend it to anyone looking to boost productivity.",
+      name: "Saurabh Agrahari",
+      designation: "Director, STEMMANTRA",
+      message:"Rajesh demonstrates excellent technical expertise, quickly understanding and resolving problems within the given timeframe. I highly recommend him for his outstanding work.",
     },
     {
       logo: "/rating.png",
-      name: "Jane Smith",
-      designation: "Marketing Director, XYZ Corp",
-      message:
-        "A game-changer for our team. The support is exceptional and the results are even better.",
+      name: "Saurabh Agrahari",
+      designation: "Director, STEMMANTRA",
+      message:"Rajesh demonstrates excellent technical expertise, quickly understanding and resolving problems within the given timeframe. I highly recommend him for his outstanding work.",
     },
     {
       logo: "/rating.png",
-      name: "Mike Johnson",
-      designation: "CTO, InnovateTech",
-      message:
-        "Excellent product! The experience has been seamless, and our team is much more productive now.",
+      name: "Saurabh Agrahari",
+      designation: "Director, STEMMANTRA",
+      message:"Rajesh demonstrates excellent technical expertise, quickly understanding and resolving problems within the given timeframe. I highly recommend him for his outstanding work.",
     },
     // Add more testimonials here
   ];
